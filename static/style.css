@@ -2,7 +2,7 @@
     margin: 0px;
 }
 #main,#canvas{
-    border: 2px solid black;
+    border: 2px solid rgb(249, 247, 247);
 }
 #canvas{
     width: 60%;
