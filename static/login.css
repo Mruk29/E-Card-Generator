@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #d798f5, #c665f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#main {
+  width: 100%;
+  max-width: 400px;
+}
+
+#canvas {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+#form-body h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+a {
+  color: #d57bf0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#form-body {
+  height: auto;
+}

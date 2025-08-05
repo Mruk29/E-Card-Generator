@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to E-Card Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #c78ef3 0%, #bb65f5 100%);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 60px 40px;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 1rem;
+      background-color: #6a11cb;
+      background-image: linear-gradient(to right, #c875f5, #6a11cb);
+      color: #fff;
+      transition: background 0.3s;
+    }
+
+    .buttons a:hover {
+      background-image: linear-gradient(to right, #6a11cb, #2575fc);
+    }
+
+    .admin-link {
+      display: block;
+      margin-top: 30px;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .admin-link:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 480px) {
+      .container {
+        padding: 40px 20px;
+      }
+
+      .buttons a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to E-Card Generator</h1>
+    <p>Create, customize, and send beautiful e-cards in seconds.</p>
+    <div class="buttons">
+      <a href="/login">Login</a>
+      <a href="/register">Sign Up</a>
+    </div>
+    <a class="admin-link" href="/admin">Go to Admin Panel</a>
+  </div>
+</body>
+</html>

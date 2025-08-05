@@ -1,0 +1,93 @@
+body {
+  background: #f4f7fc;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+#canvas {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  border-radius: 12px;
+  background: #e0eafc !important;
+  padding: 15px 25px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.headings {
+  font-size: 24px;
+  font-weight: 600;
+  color: #444;
+  margin: 30px 0 15px;
+}
+
+.table {
+  background: #fefefe;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #f0f4ff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.table tbody tr {
+  vertical-align: middle;
+  transition: background 0.3s;
+}
+
+.table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.text-end a.btn-success {
+  font-size: 16px;
+  padding: 10px 20px;
+}
